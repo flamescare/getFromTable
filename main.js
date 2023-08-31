@@ -8,7 +8,6 @@ function handler(event) {
     if (event.target.tagName !== 'TD') return false;
     let data = [...event.target.parentNode.children];
     let text = getDataFromTd(data);
-    // console.log(text);
     showData(text);
 }
 
