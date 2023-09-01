@@ -68,3 +68,15 @@ tr:hover {
 #chosen-participant-title {
     color: rgb(0, 61, 89)
 }
+.reset-btn {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.reset-btn:hover {
+    background-color: #aaa;
+}
